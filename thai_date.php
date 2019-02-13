@@ -42,7 +42,7 @@
     				"11"=>"Nov",
     				"12"=>"Dec"           
 				);
-				function eng_date($time){   // 19-12-56
+				function eng_date($time){   // 09-01-62
     			global $eng_month_arr;
    				$eng_date_return = date("d",$time);   
     			$eng_date_return.="-".$eng_month_arr[date("n",$time)];   
